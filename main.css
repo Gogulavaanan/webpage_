@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#shoptitle {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    color: #fff;
+}
+
+#navbar {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 4%, rgba(81, 141, 212, 1) 79%);
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    border-top: 5px solid #fff;
+    height: 520px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.box1 {
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    border: 1px solid rgb(118, 116, 116);
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 5px 7px 6px #000;
+
+}
+
+.addToCartBtn {
+    border-radius: 10px;
+    padding: 3px 10px;
+    background: radial-gradient(circle, rgba(148, 187, 233, 1) 45%, rgba(238, 174, 202, 1) 101%);
+    border: 0;
+}
+
+#title {
+    font-weight: 800;
+    opacity: 80%;
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #000;
+    font-family: ui-rounded;
+
+}
+
+#price {
+    padding-bottom: 35px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+#carttitle {
+    height: 50px;
+    padding-top: 8px;
+
+}
+
+#incbtn {
+    opacity: 40%;
+    margin-left: 20px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 200px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px grey;
+}
+
+#yourcartprice {
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+#navcart {
+    width: 50px;
+
+    text-align: center;
+}
+
+#cartnum {
+    padding-left: 10px;
+}
+
+#yourcart {
+
+    float: right;
+}
+
+#cartbtn {
+    color: #000;
+    font-weight: 700;
+    width: 90px;
+    height: 40px;
+    background: radial-gradient(circle, rgba(148, 187, 233, 1) 30%, rgba(238, 174, 202, 1) 101%);
+}
+
+.modalTitle {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.modalButtons {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 4%, rgba(81, 141, 212, 1) 79%);
+    border: 0;
+    margin-bottom: 0 !important;
+}
+
+.cartTable {
+    width: 100%;
+}
+
+.cartTable tr td {
+    padding: 5px;
+}
+
+.cartTable tr td:first-child {
+    width: 5%;
+}
+
+.cartTable tr .totalText {
+    font-weight: bold;
+}
+.formstyle{
+    width: 400px;
+ 
+    padding: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    border: 0.5px solid rgb(248, 216, 216);
+}
+.container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.fillyou{
+    font-family: 'Sacramento', cursive;
+    margin-left: 25%;
+    width: 600px;
+    color: #fff;
+}
+.scroll{
+    width: 100%;
+}
+.formmodal{
+    background-color: black;
+}
+.img{
+    opacity: 60%;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 2px;
+}
+.imgword{
+    color: #fff;
+}
